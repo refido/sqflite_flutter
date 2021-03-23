@@ -15,9 +15,15 @@ class HomeState extends State<Home> {
   DbHelper dbHelper = DbHelper();
   int count = 0;
   List<Item> itemList;
+
+  @override
+  void initState() {
+    super.initState();
+    updateListView();
+  }
+
   @override
   Widget build(BuildContext context) {
-    updateListView();
     if (itemList == null) {
       itemList = [];
     }
