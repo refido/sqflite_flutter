@@ -27,8 +27,8 @@ class DbHelper {
 //buat tabel baru dengan nama item
   void _createDb(Database db, int version) async {
     var batch = db.batch();
-    await batch.execute('DROP TABLE IF EXISTS item');
-    await batch.execute('''
+    batch.execute('DROP TABLE IF EXISTS item');
+    batch.execute('''
     CREATE TABLE item (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     kodeBarang TEXT,
