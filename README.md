@@ -1,8 +1,8 @@
 ## Hasil run
-![gambar 1](screenshot/1.png)
-![gambar 2](screenshot/2.png)
-![gambar 3](screenshot/3.png)
-![gambar 4](screenshot/4.png)
+![gambar 1](screenshot/1.jpeg)
+![gambar 2](screenshot/2.jpeg)
+![gambar 3](screenshot/3.jpeg)
+![gambar 4](screenshot/4.jpeg)
 
 # sql
 
